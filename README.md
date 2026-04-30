@@ -1,46 +1,16 @@
-# Form Registrasi Program Magang Bersertifikat
+# React + Vite
 
-Project ini merupakan capstone project berupa formulir registrasi event dengan tema **Program Magang Bersertifikat**.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Identitas
+Currently, two official plugins are available:
 
-- Nama: Favian Hanindito Projosudjadi
-- Grup: Sandyakala
-- Tema Event: Program Magang Bersertifikat
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Fitur
+## React Compiler
 
-- Form registrasi menggunakan React Hook Form
-- Styling menggunakan Tailwind CSS
-- Validasi required, min length, max length, pattern, dan custom validation
-- Validasi custom password
-- Pesan error dinamis di setiap input
-- Feedback sukses setelah submit
-- Notifikasi sukses otomatis hilang setelah 3 detik
-- Data submit tampil di console dalam format JSON
-- Form tetap uncontrolled, tidak menggunakan useState untuk mengontrol input
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Field Form
+## Expanding the ESLint configuration
 
-1. Nama Lengkap
-2. Username
-3. Email
-4. Password
-5. Umur
-6. Tipe Tiket
-7. Situs Web Pribadi / Portofolio
-8. Bidang Magang yang Diminati
-9. Syarat & Ketentuan
-
-## Teknologi
-
-- Vite
-- React
-- Tailwind CSS
-- React Hook Form
-
-## Cara Menjalankan Project
-
-```bash
-npm install
-npm run dev
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
